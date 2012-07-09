@@ -66,3 +66,139 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 9, ../sass/screen.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 140%;
+  text-align: center;
+}
+
+/* line 17, ../sass/screen.scss */
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+/* line 22, ../sass/screen.scss */
+.nav-wrapper {
+  background: #891c1c;
+  border-bottom: 1px solid #a53d3d;
+  padding: 18px 0;
+}
+/* line 26, ../sass/screen.scss */
+.nav-wrapper ul {
+  text-align: center;
+}
+/* line 28, ../sass/screen.scss */
+.nav-wrapper ul li {
+  color: #a53d3d;
+  display: inline;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+/* line 36, ../sass/screen.scss */
+.nav-wrapper ul li a {
+  color: #e87070;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+/* line 41, ../sass/screen.scss */
+.nav-wrapper ul li a:hover {
+  color: #fff;
+}
+
+/* line 48, ../sass/screen.scss */
+.title-wrapper {
+  background: #080808 url(../images/theater.png) top center no-repeat;
+  border-bottom: 1px solid #fff;
+  min-height: 500px;
+  padding-top: 100px;
+}
+
+/* line 55, ../sass/screen.scss */
+.venue-wrapper {
+  background: #999;
+  border-bottom: 1px solid #333;
+  padding: 40px 0;
+}
+/* line 59, ../sass/screen.scss */
+.venue-wrapper h2 {
+  color: #333;
+}
+
+/* line 64, ../sass/screen.scss */
+.event-wrapper {
+  background: #fff;
+  border-bottom: 1px solid #450707;
+  padding: 40px 0;
+}
+/* line 68, ../sass/screen.scss */
+.event-wrapper h2 {
+  color: #666;
+}
+
+/* line 73, ../sass/screen.scss */
+.rsvp-wrapper {
+  background: #891c1c;
+  padding: 40px 0;
+}
+/* line 76, ../sass/screen.scss */
+.rsvp-wrapper h2 {
+  color: #fff;
+}
+
+/* line 81, ../sass/screen.scss */
+h1 {
+  border-bottom: 1px solid #222;
+  color: #fff;
+  font-family: 'Limelight', sans-serif;
+  font-size: 86px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+
+/* line 90, ../sass/screen.scss */
+h2 {
+  color: #999;
+  font-family: 'Limelight', sans-serif;
+  font-size: 34px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+/* line 99, ../sass/screen.scss */
+p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+/* line 104, ../sass/screen.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 108, ../sass/screen.scss */
+#form1 {
+  color: #fff;
+  text-align: left;
+}
+
+/* line 113, ../sass/screen.scss */
+a {
+  text-decoration: none;
+}

@@ -4,3 +4,112 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "compass/css3";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 140%;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 720px;
+}
+
+.nav-wrapper {
+  background: #891c1c;
+  border-bottom: 1px solid #a53d3d;
+  padding: 18px 0;
+  ul {
+    text-align: center;
+    li {
+      color: #a53d3d;
+      display: inline;
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 0 20px;
+      text-transform: uppercase;
+      a {
+        color: #e87070;
+        @include transition-property(color);
+        @include transition-duration(0.4s);
+      }
+      a:hover {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.title-wrapper {
+  background: #080808 url(../images/theater.png) top center no-repeat;
+  border-bottom: 1px solid #fff;
+  min-height: 500px;
+  padding-top: 100px;
+}
+
+.venue-wrapper {
+  background: #999;
+  border-bottom: 1px solid #333;
+  padding: 40px 0;
+  h2 {
+    color: #333;
+  }
+}
+
+.event-wrapper {
+  background: #fff;
+  border-bottom: 1px solid #450707;
+  padding: 40px 0;
+  h2 {
+    color: #666;
+  }
+}
+
+.rsvp-wrapper {
+  background: #891c1c;
+  padding: 40px 0;
+  h2 {
+    color: #fff;
+  }
+}
+
+h1 {
+  border-bottom: 1px solid #222;
+  color: #fff;
+  font-family: 'Limelight', sans-serif;
+  font-size: 86px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+
+h2 {
+  color: #999;
+  font-family: 'Limelight', sans-serif;
+  font-size: 34px;
+  letter-spacing: 5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+strong {
+  font-weight: 600;
+}
+
+#form1 {
+  color: #fff;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
