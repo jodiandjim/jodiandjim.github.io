@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "compass/css3";
+@import "compass/utilities/general/clearfix";
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -22,7 +23,7 @@ body {
 .nav-wrapper {
   background: #891c1c;
   border-bottom: 1px solid #a53d3d;
-  padding: 18px 0;
+  padding: 12px 0;
   ul {
     text-align: center;
     li {
@@ -49,32 +50,59 @@ body {
   background: #080808 url(../images/theater.png) top center no-repeat;
   border-bottom: 1px solid #fff;
   min-height: 500px;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .venue-wrapper {
-  background: #999;
-  border-bottom: 1px solid #333;
+  background: #ccc;
+  border-bottom: 1px solid #999;
   padding: 40px 0;
-  h2 {
+  h2 { 
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    a {
     color: #333;
+    }
   }
 }
 
 .event-wrapper {
   background: #fff;
-  border-bottom: 1px solid #450707;
+  border-bottom: 1px solid #333;
   padding: 40px 0;
-  h2 {
+  h2 { 
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    a {
     color: #666;
+    }
   }
 }
 
 .rsvp-wrapper {
   background: #891c1c;
+  border-bottom: 1px solid #666;
   padding: 40px 0;
-  h2 {
+  h2 { 
+    border-bottom: 1px solid #a53d3d;
+    padding-bottom: 10px;
+    a {
     color: #fff;
+    }
+  }
+}
+
+.footer-wrapper {
+  background: #232323;
+  color: #a53d3d;
+  font-size: 85%;
+  padding: 12px 0;
+  p {
+    text-align: right;
+  }
+  a {
+    color: #e87070;
+    font-weight: normal;
   }
 }
 
@@ -84,7 +112,7 @@ h1 {
   font-family: 'Limelight', sans-serif;
   font-size: 86px;
   margin-bottom: 20px;
-  padding-bottom: 12px;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -105,11 +133,67 @@ strong {
   font-weight: 600;
 }
 
-#form1 {
-  color: #fff;
+.inline {
+  float: right;
+  margin-left: 20px;
+}
+
+ul.registry {
   text-align: left;
+  li {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+}
+
+#form1 {
+  margin: 0 auto;
+  text-align: left;
+  width: 350px;
+  p {
+    color: #e87070;
+    font-size: 90%;
+    line-height: 130%;
+  }
+  .desc {
+    color: #e87070;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  input, textarea {
+    border: 1px solid #333;
+    margin-bottom: 12px;
+    padding: 6px;
+  }
+  .hide {
+    display: none;
+  }
+  .btTxt {
+    @include border-radius(3px);
+    @include box-shadow(#333 1px 1px 1px);
+    @include text-shadow(#891c1c 1px 1px 1px);
+    background: #e87070;
+    border: none;
+    border-top: 1px solid #FA9393;
+    border-left: 1px solid #FA9393;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+  }
 }
 
 a {
+  border-bottom: 1px dotted #666;
+  color: #891c1c;
+  font-weight: bold;
   text-decoration: none;
+}
+
+h1 a, h2 a, .nav-wrapper ul li a {
+  border-bottom: none;
+  font-weight: normal;
 }
