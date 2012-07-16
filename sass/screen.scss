@@ -54,7 +54,7 @@ body {
 }
 
 .venue-wrapper {
-  background: #ccc;
+  background: #ccc url(../images/arches.png);
   border-bottom: 1px solid #999;
   padding: 40px 0;
   h2 { 
@@ -64,10 +64,13 @@ body {
     color: #333;
     }
   }
+  p.question {
+    border-top: 1px solid #ccc;
+  }
 }
 
 .event-wrapper {
-  background: #fff;
+  background: #fff url(../images/retro_white.png);
   border-bottom: 1px solid #333;
   padding: 40px 0;
   h2 { 
@@ -76,6 +79,9 @@ body {
     a {
     color: #666;
     }
+  }
+  p.question {
+    border-top: 1px solid #eee;
   }
 }
 
@@ -129,16 +135,28 @@ p {
   text-align: left;
 }
 
-strong {
+p.question {
   font-weight: 600;
+  margin-top: 20px;
+  padding-top: 30px;
 }
 
-.inline {
+p.question.top {
+  border-top: none;
+}
+
+.inline-left {
+  float: left;
+  margin: 40px 30px 40px 0;
+}
+
+.inline-right {
   float: right;
   margin-left: 20px;
 }
 
 ul.registry {
+  margin-bottom: 10px;
   text-align: left;
   li {
     list-style-type: circle;
@@ -187,7 +205,7 @@ ul.registry {
 }
 
 a {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #999;
   color: #891c1c;
   font-weight: bold;
   text-decoration: none;

@@ -131,7 +131,7 @@ body {
 
 /* line 56, ../sass/screen.scss */
 .venue-wrapper {
-  background: #ccc;
+  background: #cccccc url(../images/arches.png);
   border-bottom: 1px solid #999;
   padding: 40px 0;
 }
@@ -144,57 +144,65 @@ body {
 .venue-wrapper h2 a {
   color: #333;
 }
+/* line 67, ../sass/screen.scss */
+.venue-wrapper p.question {
+  border-top: 1px solid #ccc;
+}
 
-/* line 69, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .event-wrapper {
-  background: #fff;
+  background: white url(../images/retro_white.png);
   border-bottom: 1px solid #333;
   padding: 40px 0;
 }
-/* line 73, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .event-wrapper h2 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .event-wrapper h2 a {
   color: #666;
 }
+/* line 83, ../sass/screen.scss */
+.event-wrapper p.question {
+  border-top: 1px solid #eee;
+}
 
-/* line 82, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .rsvp-wrapper {
   background: #891c1c;
   border-bottom: 1px solid #666;
   padding: 40px 0;
 }
-/* line 86, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .rsvp-wrapper h2 {
   border-bottom: 1px solid #a53d3d;
   padding-bottom: 10px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 .rsvp-wrapper h2 a {
   color: #fff;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .footer-wrapper {
   background: #232323;
   color: #a53d3d;
   font-size: 85%;
   padding: 12px 0;
 }
-/* line 100, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .footer-wrapper p {
   text-align: right;
 }
-/* line 103, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .footer-wrapper a {
   color: #e87070;
   font-weight: normal;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 h1 {
   border-bottom: 1px solid #222;
   color: #fff;
@@ -204,7 +212,7 @@ h1 {
   padding-bottom: 30px;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 h2 {
   color: #999;
   font-family: 'Limelight', sans-serif;
@@ -214,63 +222,77 @@ h2 {
   text-transform: uppercase;
 }
 
-/* line 127, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 p {
   margin: 10px 0;
   text-align: left;
 }
 
-/* line 132, ../sass/screen.scss */
-strong {
+/* line 138, ../sass/screen.scss */
+p.question {
   font-weight: 600;
+  margin-top: 20px;
+  padding-top: 30px;
 }
 
-/* line 136, ../sass/screen.scss */
-.inline {
+/* line 144, ../sass/screen.scss */
+p.question.top {
+  border-top: none;
+}
+
+/* line 148, ../sass/screen.scss */
+.inline-left {
+  float: left;
+  margin: 40px 30px 40px 0;
+}
+
+/* line 153, ../sass/screen.scss */
+.inline-right {
   float: right;
   margin-left: 20px;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 ul.registry {
+  margin-bottom: 10px;
   text-align: left;
 }
-/* line 143, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 ul.registry li {
   list-style-type: circle;
   margin-left: 20px;
 }
 
-/* line 149, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 #form1 {
   margin: 0 auto;
   text-align: left;
   width: 350px;
 }
-/* line 153, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 #form1 p {
   color: #e87070;
   font-size: 90%;
   line-height: 130%;
 }
-/* line 158, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #form1 .desc {
   color: #e87070;
   display: block;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 #form1 input, #form1 textarea {
   border: 1px solid #333;
   margin-bottom: 12px;
   padding: 6px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 #form1 .hide {
   display: none;
 }
-/* line 172, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 #form1 .btTxt {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -293,15 +315,15 @@ ul.registry li {
   text-transform: uppercase;
 }
 
-/* line 189, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 a {
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #999;
   color: #891c1c;
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 196, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 h1 a, h2 a, .nav-wrapper ul li a {
   border-bottom: none;
   font-weight: normal;
