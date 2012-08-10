@@ -298,23 +298,29 @@ ul.registry li {
   line-height: 130%;
 }
 /* line 195, ../sass/screen.scss */
+#form1 label {
+  color: #e87070;
+  line-height: 130%;
+  margin-top: 1em;
+}
+/* line 200, ../sass/screen.scss */
 #form1 .desc {
   color: #e87070;
   display: block;
   font-weight: 600;
   margin-bottom: 10px;
 }
-/* line 201, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 #form1 input, #form1 textarea {
   border: 1px solid #333;
   margin-bottom: 12px;
   padding: 6px;
 }
-/* line 206, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 #form1 .hide {
   display: none;
 }
-/* line 209, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 #form1 .btTxt {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -337,7 +343,7 @@ ul.registry li {
   text-transform: uppercase;
 }
 
-/* line 226, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 a {
   border-bottom: 1px dotted #999;
   color: #891c1c;
@@ -345,13 +351,13 @@ a {
   text-decoration: none;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 h1 a, h2 a {
   border-bottom: none;
   font-weight: normal;
 }
 
-/* line 238, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .nav-wrapper ul li a {
   border-bottom: none;
 }
